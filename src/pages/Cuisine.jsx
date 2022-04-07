@@ -16,8 +16,9 @@ function Cuisine() {
         setCuisine(recipes.results)
     }
 
-    useEffect(() =>
+    useEffect(() =>{
         getCuisine(params.type)
+    }
     ,[params.type])  
     
   return (
